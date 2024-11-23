@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Daily  Chroncicle</title>
+    <style>
+        body{
+            font-family:'georgia',serif;
+            line-height:1.6;
+            color:#333;
+            max-width:1200px;
+            margin:0 auto;
+            padding:20px;
+            background-color:#f4f4f4;
+        }
+        header{
+            background-color:#1a1a1a;
+            color:#fff;
+            padding:20px;
+            text-align:center;
+        }
+        header h1{
+            margin:0;
+            font-size:2.5em;
+        }
+        nav{
+            background-color:#5d3bc4;
+            color:#fff;
+            padding:10px;
+        }
+        nav ul{
+            list-style-type:none;
+            padding:0;
+            margin:0;
+            display:flex;
+            justify-content:center;
+        }
+        nav ul li{
+            margin:0 10px;
+        }
+        nav ul li a{
+            color:#fff;
+            text-decoration:none;
+        }
+        main{
+            display:flex;
+            margin-top:20px;
+        }
+        section{
+            flex:2;margin-right:20px;
+        }
+        article{
+            background-color:#fff;
+            padding:20px;
+            margin-bottom:20px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        article h2{
+            color:#1a1a1a;
+            font-size:1.8em;
+        }
+        aside{
+            flex:1;
+            background-color:#e6e6e6;
+            padding:20px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        figure{
+            margin:0;
+            text-align:center;
+        }
+        figure img{
+            max-width:100%;
+            height:auto;
+        }
+        figcaption{
+            font-style:italic;
+            color:#666;
+            font-size:0.9em;
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th,td{
+            border:1px solid #22b45f;
+            padding:10px;
+            text-align:left;
+        }
+        th{
+            background-color:#f2f2f2;
+        }
+        footer{
+            background-color: #1a1a1a;
+            color:#fff;
+            text-align:center;
+            padding:10px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>THE DAILY CHRONICLE</h1></header>
+    <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">POLITICS</a></li>
+          <li><a href="#">TECHNOLOGY</a></li>
+          <li><a href="#">SPORTS</a></li>
+          <li><a href="#">ENTERTAINMENT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>Breaking News:Major Technological Breakthrough</h2>
+                <p>Scientists have announced a groundbreaking discovery in the field of quantum computing,
+                    potentially revolutionzing the tech industry</p>
+                <figure>
+                 <img src="lab3img.jpg" auto="web" & fit="crop" & height="675" & width="1200" alt="quantum computer i given itachi">
+                 <figcaption>
+                    a state-of-the-art quantum computer at the research facility
+                 </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h2>local sports team wins championship,bringing</h2>
+                <p>In athrilling match,our local team secured victory in the national championship,bringing pride to our city</p>
+                <table>
+                    <tr>
+                        <th>Team</th>
+                        <th>scores</th>
+                    </tr>
+                    <tr>
+                        <td>local heroes</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>visiting challengers</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <aside><h3>weather update</h3>
+          <p>except sunny skies with a high of 75F(24c) today</p>
+           <h3>upcoming events</h3>
+         <ul>
+             <li>city festival-this weekend</li>
+             <li>Tech conference-next month</li>
+             <li>Charity run-in two weeks</li>
+         </ul>
+        </aside>
+    </main>
+    <footer>
+        <P>&copy;2023 the daily chronicle.all rights reserved</P>
+    </footer>
+</body>
+</html>
